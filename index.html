@@ -1,65 +1,51 @@
+
 <!DOCTYPE html>
 <html lang="pl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Domy z ogrodem – Henryków-Urocze</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
-    header { background: #2e8b57; color: white; padding: 1.5rem; text-align: center; }
-    section { padding: 2rem; max-width: 960px; margin: auto; background: white; margin-top: 1rem; border-radius: 8px; }
-    h1, h2 { color: #2e8b57; }
-    ul { padding-left: 1.2rem; }
-    footer { background: #eee; padding: 1rem; text-align: center; margin-top: 2rem; font-size: 0.9rem; }
-  </style>
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  <header>
-    <h1>Domy z ogrodem – Henryków-Urocze</h1>
-    <p>5 pokoi • Oddanie: koniec 2025 • Przedsprzedaż</p>
+  <header class="hero">
+    <img src="assets/logo.png" alt="Smart Home Development" class="logo" />
+    <div class="hero-text">
+      <h1>Domy z ogrodem – Henryków-Urocze</h1>
+      <p>5 pokoi, ogród, garaż – 25 minut od Warszawy</p>
+      <a href="#kontakt" class="cta-button">Skontaktuj się</a>
+    </div>
   </header>
 
-  <section>
-    <h2>Opis inwestycji</h2>
-    <p>Smart Home Development prezentuje 2 funkcjonalne, wolnostojące domy połączone garażami. Kameralna zabudowa w otoczeniu zieleni, 25 km od Warszawy.</p>
-  </section>
-
-  <section>
-    <h2>Charakterystyka</h2>
+  <section class="features">
+    <h2>Dlaczego warto?</h2>
     <ul>
-      <li>Powierzchnia domu: 116,04 m²</li>
-      <li>Parter: salon z kuchnią i wyspą, jadalnia, gabinet/sypialnia, łazienka, garaż</li>
-      <li>Piętro: 3 sypialnie, łazienka</li>
-      <li>Wysoka jakość materiałów i parametry cieplne</li>
+      <li>✅ Kameralne osiedle</li>
+      <li>✅ 5 pokoi i garaż</li>
+      <li>✅ Oddanie: koniec 2025</li>
+      <li>✅ Tylko 25 minut od Warszawy</li>
     </ul>
   </section>
 
-  <section>
+  <section class="gallery">
+    <h2>Wizualizacje</h2>
+    <img src="assets/viz1.jpg" alt="Dom wizualizacja 1" />
+    <img src="assets/viz2.jpg" alt="Dom wizualizacja 2" />
+  </section>
+
+  <section class="location">
     <h2>Lokalizacja</h2>
-    <p>Henryków-Urocze (gm. Piaseczno) – 25 km od Warszawy</p>
-    <ul>
-      <li>650 m – przystanek autobusowy</li>
-      <li>7 min – węzeł S7</li>
-      <li>12 min – PKP Tarczyn</li>
-      <li>19 min – Piaseczno</li>
-      <li>34 min – Lotnisko Chopina</li>
-    </ul>
+    <p>Henryków-Urocze (gm. Piaseczno) – cisza, zieleń i szybki dojazd do Warszawy.</p>
+    <a href="https://maps.google.com/?q=Henryków-Urocze" target="_blank">Zobacz na mapie</a>
   </section>
 
-  <section>
-    <h2>Infrastruktura</h2>
-    <ul>
-      <li>1,3 km – Delikatesy Centrum</li>
-      <li>1,6 km – Cafe Rosso</li>
-      <li>2,5 km – Przedszkole ABC Złotokłos</li>
-      <li>2,9 km – Szkoła Podstawowa</li>
-      <li>4,4 km – Pizzeria</li>
-    </ul>
-    <p>Bliskość Parku Chojnowskiego – idealna do wypoczynku wśród natury.</p>
+  <section id="kontakt" class="contact">
+    <h2>Kontakt</h2>
+    <p>Smart Home Development<br />Email: kontakt@smarthome.pl<br />Telefon: +48 123 456 789</p>
   </section>
 
   <footer>
-    &copy; 2025 Smart Home Development – Wszystkie prawa zastrzeżone
+    <p>© 2025 Smart Home Development</p>
   </footer>
 </body>
 </html>
